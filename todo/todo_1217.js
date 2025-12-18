@@ -1,0 +1,12 @@
+ // 15-2, 15-3 장을 정독,
+ (490p~501p)
+ //git설치.
+ //(d)Dev fun_jabascript = git clone git주소.
+ //이름, 연락처, 주소 정보를 입력하면
+ //콘솔에 "이름은 홍길동" '전화번호는 010-1212-3434', '주소는 대구 중구 100번지'
+ //git add.
+ //git commit -m "12/17 숙제완료"
+ // git push -u origin main
+
+ //원격 => 로컬 동기화
+ //git push -u origin Main
