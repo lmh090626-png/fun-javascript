@@ -13,3 +13,36 @@
 // git add.
 //git commit -m "18일 숙제완료"
 //git push origin main
+
+function scoreInfo() {
+    let sum = 0;
+
+}
+
+
+
+
+
+// 1 ~ 10 까지 정수를 합하는 반복문.
+// 홀수값만 누적
+let sum = 0;
+for (let i = 1; i <= 10; i++){
+    if (i % 2 ===1)
+    sum +=i;
+}
+console.log(sum); 
+
+// 함수: oddSum()  정의.
+// 함수호출.
+
+// 함수: sumUp() / 1 ~ 5까지 합. 반환.
+// result 변수에 저장.
+function sumUp(a) {
+    let sum = 0;
+    for (let i = 1; i <= 5; i++) {
+        sum += i;
+    }
+        return sum;
+}
+console.log('정수의 합 : ${sumUp}');
+
